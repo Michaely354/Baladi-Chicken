@@ -1,0 +1,1 @@
+window.BALADI_CONFIG = {"supabaseUrl": "https://vnsplnscdcqjiojrpcvu.supabase.co", "supabasePublishableKey": "sb_publishable_TfbSKBNkfR7tGY50ISQjwA_nXGOA33D"};

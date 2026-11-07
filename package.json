@@ -1,0 +1,16 @@
+{
+  "name": "baladi-chicken-menu",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "check": "node --check src/app.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "2.99.3"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "0.5.15",
+    "esbuild": "0.25.12"
+  }
+}

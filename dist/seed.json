@@ -1,0 +1,242 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "name": "مشاوي عالفحم"
+    },
+    {
+      "id": "2",
+      "name": "الصفيحة"
+    },
+    {
+      "id": "3",
+      "name": "مشاوي وفروج"
+    },
+    {
+      "id": "4",
+      "name": "دجاج ني"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "category": "1",
+      "name": "لحم شقف",
+      "description": "",
+      "price": 450000,
+      "currency": "LBP",
+      "available": true,
+      "visible": true,
+      "image": null
+    },
+    {
+      "id": "2",
+      "category": "1",
+      "name": "كفتة",
+      "description": "",
+      "price": 400000,
+      "currency": "LBP",
+      "available": true,
+      "visible": true,
+      "image": null
+    },
+    {
+      "id": "3",
+      "category": "1",
+      "name": "مقانق",
+      "description": "",
+      "price": 400000,
+      "currency": "LBP",
+      "available": true,
+      "visible": true,
+      "image": null
+    },
+    {
+      "id": "4",
+      "category": "1",
+      "name": "سجق",
+      "description": "",
+      "price": 400000,
+      "currency": "LBP",
+      "available": true,
+      "visible": true,
+      "image": null
+    },
+    {
+      "id": "5",
+      "category": "1",
+      "name": "كباب دجاج",
+      "description": "",
+      "price": 300000,
+      "currency": "LBP",
+      "available": true,
+      "visible": true,
+      "image": null
+    },
+    {
+      "id": "6",
+      "category": "1",
+      "name": "دجاج مشوي",
+      "description": "",
+      "price": 350000,
+      "currency": "LBP",
+      "available": true,
+      "visible": true,
+      "image": null
+    },
+    {
+      "id": "7",
+      "category": "1",
+      "name": "طاووق",
+      "description": "",
+      "price": 350000,
+      "currency": "LBP",
+      "available": true,
+      "visible": true,
+      "image": null
+    },
+    {
+      "id": "8",
+      "category": "1",
+      "name": "سودة دجاج",
+      "description": "",
+      "price": 300000,
+      "currency": "LBP",
+      "available": true,
+      "visible": true,
+      "image": null
+    },
+    {
+      "id": "9",
+      "category": "2",
+      "name": "صفيحة لحمة",
+      "description": "",
+      "price": 150000,
+      "currency": "LBP",
+      "available": true,
+      "visible": true,
+      "image": null
+    },
+    {
+      "id": "10",
+      "category": "2",
+      "name": "صفيحة دجاج",
+      "description": "",
+      "price": 100000,
+      "currency": "LBP",
+      "available": true,
+      "visible": true,
+      "image": null
+    },
+    {
+      "id": "11",
+      "category": "3",
+      "name": "كيلو شقف غنم",
+      "description": "",
+      "price": 30,
+      "currency": "USD",
+      "available": true,
+      "visible": true,
+      "image": null
+    },
+    {
+      "id": "12",
+      "category": "3",
+      "name": "كيلو كفتة غنم",
+      "description": "",
+      "price": 25,
+      "currency": "USD",
+      "available": true,
+      "visible": true,
+      "image": null
+    },
+    {
+      "id": "13",
+      "category": "3",
+      "name": "كيلو كباب دجاج",
+      "description": "",
+      "price": 15,
+      "currency": "USD",
+      "available": true,
+      "visible": true,
+      "image": null
+    },
+    {
+      "id": "14",
+      "category": "3",
+      "name": "فروج مشوي",
+      "description": "",
+      "price": 15,
+      "currency": "USD",
+      "available": true,
+      "visible": true,
+      "image": null
+    },
+    {
+      "id": "15",
+      "category": "4",
+      "name": "فروج كامل",
+      "description": "",
+      "price": null,
+      "currency": null,
+      "available": true,
+      "visible": true,
+      "image": null
+    },
+    {
+      "id": "16",
+      "category": "4",
+      "name": "سفاين مسحب",
+      "description": "",
+      "price": null,
+      "currency": null,
+      "available": true,
+      "visible": true,
+      "image": null
+    },
+    {
+      "id": "17",
+      "category": "4",
+      "name": "سفاين بعضم",
+      "description": "",
+      "price": null,
+      "currency": null,
+      "available": true,
+      "visible": true,
+      "image": null
+    },
+    {
+      "id": "18",
+      "category": "4",
+      "name": "جوانح",
+      "description": "",
+      "price": null,
+      "currency": null,
+      "available": true,
+      "visible": true,
+      "image": null
+    },
+    {
+      "id": "19",
+      "category": "4",
+      "name": "فخاد",
+      "description": "",
+      "price": null,
+      "currency": null,
+      "available": true,
+      "visible": true,
+      "image": null
+    },
+    {
+      "id": "20",
+      "category": "4",
+      "name": "سودة",
+      "description": "",
+      "price": null,
+      "currency": null,
+      "available": true,
+      "visible": true,
+      "image": null
+    }
+  ]
+}
