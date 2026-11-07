@@ -1,3 +1,11 @@
+# Live website
+
+Menu: https://baladi-chicken-menu.onrender.com/menu/
+
+Owner login: https://baladi-chicken-menu.onrender.com/admin/
+
+Hosting: Render static site. Database: Supabase. Free tiers; usage limits apply.
+
 # Baladi Chicken QR Menu
 
 Arabic-first menu with 20 confirmed products, four categories, phone call links, a private owner dashboard, nullable prices, photo uploads, draft preview, atomic publication, conflict protection and recoverable removed items.
@@ -10,8 +18,8 @@ Arabic-first menu with 20 confirmed products, four categories, phone call links,
 
 ## Connect the free database (one-time)
 1. Create a free Supabase project in your own account. Store your database password privately.
-2. Open SQL Editor and execute `schema.sql` once in this NEW project. It creates menu tables, security rules, seeded content and an image bucket. Do not rerun it over existing production data.
-3. Under Authentication settings, disable new public signups. In Authentication > Users, create the owner's email/password account privately, and copy its User UUID. The owner sets/receives the password privately; do not send it in chat.
+2. For a fresh installation only, open SQL Editor and execute `schema.sql` once. The live project already has this schema; do not rerun it there. It creates menu tables, security rules, seeded content and an image bucket. Do not rerun it over existing production data.
+3. For the live deployment, use the private one-time activation link supplied by the builder. For a separate manual installation, under Authentication settings, disable new public signups. In Authentication > Users, create the owner's email/password account privately, and copy its User UUID. The owner sets/receives the password privately; do not send it in chat.
 4. Execute this in SQL Editor, replacing the placeholder:
    `insert into public.menu_owners(user_id) values ('OWNER-USER-UUID');`
 5. Copy your project URL and **publishable key** (or legacy anon key). Never use the service-role/secret key in this website.
