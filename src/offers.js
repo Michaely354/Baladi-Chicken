@@ -1,14 +1,13 @@
 export function offersMarkup(offers, escape) {
-  if (!offers.length) return '';
   return `<section class="daily-offers" id="today-offers" aria-labelledby="offers-title">
     <header class="section-head">
       <div><span class="section-en" lang="en">TODAY’S OFFERS</span><h2 id="offers-title">عروض اليوم</h2></div>
     </header>
-    <div class="offer-cards">${offers.map(offer => `
+    <div class="offer-cards">${offers.length ? offers.map(offer => `
       <article class="offer-card">
         <div><h3 dir="auto">${escape(offer.title)}</h3>${offer.details ? `<p dir="auto">${escape(offer.details)}</p>` : ''}</div>
         ${offer.price ? `<strong dir="auto">${escape(offer.price)}</strong>` : ''}
-      </article>`).join('')}</div>
+      </article>`).join('') : '<p class="offers-empty">ما في عروض حالياً.</p>'}</div>
   </section>`;
 }
 

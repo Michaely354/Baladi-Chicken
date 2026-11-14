@@ -15,3 +15,10 @@
 .offer-actions { display: inline-flex; gap: 14px; padding-inline-start: 10px; flex: none; }
 #offer-form[inert] { opacity: .65; }
 #cancel-offer-edit { margin-top: 12px; }
+
+.category-track { gap: 4px; }
+.offer-nav { order: -1; }
+.offers-empty { margin: 0; padding: 16px 19px; background: var(--white); border: 1px solid var(--line); color: #685a4f; font-size: 14px; }
+.offer-admin-panel { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 20px; padding: 12px 15px; border: 1px solid var(--line); border-radius: 8px; background: var(--white); }
+.offer-admin-panel h2 { font-size: 15px; margin: 0; }
+.offer-admin-panel .offer-manager { margin: 0; color: white; }
